@@ -1,0 +1,33 @@
+<!-- Default tutorial layout from dev page on chrome  -->
+<!-- https://developer.chrome.com/extensions/getstarted -->
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Set Password</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+    <script src="popup_files/popup.js"></script>
+  </head>
+
+  <body>
+    <span>Set Password</span>
+    <div id="container">      
+      <input type="password" id="newPaswd">
+      <button id="newPasswordButton">Update Password</button>
+    </div> 
+
+</body></html>
